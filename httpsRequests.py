@@ -9,14 +9,12 @@ from datetime   import datetime     as Date     # criador de datas
 from os         import path         as Find     # procura arquivos da querys
 from datetime   import datetime     as Now      # para criar Report Id
 
-
-
 # URL da pagina de acesso desejado
 siteURL = "https://wrs.solutions.iqvia.com/run.php"
 mainHeader = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0',
   'Accept-Language' : 'pt-BR,pt;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
-  'Connection' : 'keep-alive',
+  'Connection' : 'keep-alive'
 }
 
 # classe principal
